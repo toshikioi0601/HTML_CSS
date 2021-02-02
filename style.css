@@ -81,6 +81,11 @@ footer {
 
   .step-box {
     width: 90%;
-    margin: 20px;
+    margin: 0 auto 20px;
+    /* margin-bottom: 20px; */
+  }
+
+  .step-box:last-child {
+    margin: 0 auto 0;
   }
 }
